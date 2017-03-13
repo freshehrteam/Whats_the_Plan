@@ -79,7 +79,7 @@
         </Items>
       </Item>
     </Content>
-    <Content xsi:type="SECTION" archetype_id="openEHR-EHR-SECTION.adhoc.v1" concept_name="Ad hoc heading" max="1" path="/content" name="Allergies">
+    <Content xsi:type="SECTION" archetype_id="openEHR-EHR-SECTION.adhoc.v1" concept_name="Ad hoc heading" max="0" path="/content" name="Allergies">
       <Item xsi:type="EVALUATION" archetype_id="openEHR-EHR-EVALUATION.adverse_reaction_risk.v1" concept_name="Adverse reaction risk" path="/items">
         <Rule path="/data[at0001]/items[at0002]" name="Causative agent" />
         <Rule path="/data[at0001]/items[at0063]" max="0" />
@@ -108,7 +108,7 @@
         <Rule path="/protocol[at0042]/items[at0044]" max="0" />
         <Rule path="/protocol[at0042]/items[at0099]" max="0" />
       </Item>
-      <Item xsi:type="EVALUATION" archetype_id="openEHR-EHR-EVALUATION.exclusion-adverse_reaction.v1" concept_name="Exclusion of an Adverse Reaction" path="/items">
+      <Item xsi:type="EVALUATION" archetype_id="openEHR-EHR-EVALUATION.exclusion-adverse_reaction.v1" concept_name="Exclusion of an Adverse Reaction" max="0" path="/items">
         <Rule path="/data[at0001]" hide_on_form="true" />
         <Rule path="/data[at0001]/items[at0002.1]" default="No known allergies" />
         <Rule path="/data[at0001]/items[at0003.1]" max="0" />
@@ -117,7 +117,7 @@
         <Rule path="/protocol[at0006]/items[at0004]" max="0" />
       </Item>
     </Content>
-    <Content xsi:type="SECTION" archetype_id="openEHR-EHR-SECTION.adhoc.v1" concept_name="Ad hoc heading" max="1" path="/content" name="Problems">
+    <Content xsi:type="SECTION" archetype_id="openEHR-EHR-SECTION.adhoc.v1" concept_name="Ad hoc heading" max="0" path="/content" name="Problems">
       <Item xsi:type="EVALUATION" archetype_id="openEHR-EHR-EVALUATION.problem_diagnosis.v1" concept_name="Problem/Diagnosis" path="/items">
         <Rule path="/data[at0001]" hide_on_form="true" />
         <Rule path="/data[at0001]/items[at0002]" name="Problem/Diagnosis" />
@@ -181,7 +181,7 @@
         <Rule path="/protocol[at0006]/items[at0004]" max="0" />
       </Item>
     </Content>
-    <Content xsi:type="SECTION" archetype_id="openEHR-EHR-SECTION.adhoc.v1" concept_name="Ad hoc heading" max="1" path="/content" name="Laboratory tests">
+    <Content xsi:type="SECTION" archetype_id="openEHR-EHR-SECTION.adhoc.v1" concept_name="Ad hoc heading" max="0" path="/content" name="Laboratory tests">
       <Item xsi:type="OBSERVATION" archetype_id="openEHR-EHR-OBSERVATION.laboratory_test.v0" concept_name="Laboratory test" path="/items">
         <Rule path="/data[at0001]" hide_on_form="true" />
         <Rule path="/data[at0001]/events[at0002]" hide_on_form="true">
